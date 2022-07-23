@@ -854,6 +854,7 @@ h3.my-profession{
     background-color: rgb(133, 32, 25);
     margin-right: 1.5rem;
     max-width: 33.33%;
+    float: left;
 }
     
     .head{
@@ -884,7 +885,7 @@ h3.my-profession{
     }
     .test{
         /* display: none; */
-        color: green;
+        color: red;
     }
 }
 

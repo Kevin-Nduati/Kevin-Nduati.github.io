@@ -784,7 +784,7 @@ h3.my-profession{
     }
     
 }
-@media (max-width:550px){
+@media (min-width:550px){
     .contact .contact-form .col-6,
     .tools .tools-item,
     .project .project-item,
@@ -827,7 +827,7 @@ h3.my-profession{
     
     }
 }
-@media (max-width:320px){
+@media (min-width:320px){
     .contact .contact-form .col-6,
     .tools .tools-item,
     .project .project-item,

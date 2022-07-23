@@ -827,3 +827,46 @@ h3.my-profession{
     
     }
 }
+@media (max-width:480px){
+    .contact .contact-form .col-6,
+    .tools .tools-item,
+    .project .project-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .head{
+        background: var(--bg-black-900);
+        margin-bottom: 0;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head img{
+        display: inline-block;
+        vertical-align: center;  
+        height: 300px; 
+        width: 300px;
+        border-radius: 100%;    
+        
+
+    }
+    .tools .tools-item-inner .tools-img .img-size{
+        height: 8rem;
+        width: 100%;
+        max-width: 28rem;
+        float: left;
+        /* object-fit: fill; */
+        
+    
+    }
+}

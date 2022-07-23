@@ -702,7 +702,7 @@ h3.my-profession{
 }
 
 /* Media Queries */
-@media (min-width:960px){
+@media (max-width:1199px){
     .aside{
         left: -270px;
     }
@@ -739,7 +739,7 @@ h3.my-profession{
     
     }
 }
-@media (min-width:768px){
+@media (max-width:991px){
     .tools .tools-item,
     .project .project-item{
         flex: 0 0 50%;
@@ -784,7 +784,7 @@ h3.my-profession{
     }
     
 }
-@media (min-width:550px){
+@media (max-width:767px){
     .contact .contact-form .col-6,
     .tools .tools-item,
     .project .project-item,
@@ -827,46 +827,4 @@ h3.my-profession{
     
     }
 }
-@media (min-width:320px){
-    .contact .contact-form .col-6,
-    .tools .tools-item,
-    .project .project-item,
-    .about .about-content .education,
-    .about .about-content .experience,
-    .about .about-content .skills,
-    .about .about-content .personal-info{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .home{
-        margin-top: 0;
-        padding-top: 0;
-    }
-    
-    .head{
-        background: var(--bg-black-900);
-        margin-bottom: 0;
-        padding-bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .head img{
-        display: inline-block;
-        vertical-align: center;  
-        height: 300px; 
-        width: 300px;
-        border-radius: 100%;    
-        
-
-    }
-    .tools .tools-item-inner .tools-img .img-size{
-        height: 8rem;
-        width: 100%;
-        max-width: 28rem;
-        float: left;
-        /* object-fit: fill; */
-        
-    
-    }
-}
+@media (max-width:500px){

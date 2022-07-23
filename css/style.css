@@ -785,6 +785,51 @@ h3.my-profession{
     
 }
 @media (max-width:767px){
+    .tools .tools-item,
+    .project .project-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img{
+        display: none;
+        /* margin-top: 0px; */
+        /* width: 3vh;
+        height: 6vh;
+        margin-top: 4.5vh;
+        margin-bottom: 4.5vh; */
+    }
+    .head{
+        background: var(--bg-black-900);
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head img{
+        display: inline-block;
+        vertical-align: top;  
+        height: 300px; 
+        width: 300px;
+        border-radius: 100%;    
+        justify-content: center;
+
+    }
+    .tools .tools-item-inner .tools-img .img-size{
+        height: 8rem;
+        width: 100%;
+        max-width: 28rem;
+        float: left;
+        /* object-fit: fill; */
+        
+    
+    }
+    
+}
+@media (max-width:500px){
     .contact .contact-form .col-6,
     .tools .tools-item,
     .project .project-item,
@@ -827,3 +872,4 @@ h3.my-profession{
     
     }
 }
+

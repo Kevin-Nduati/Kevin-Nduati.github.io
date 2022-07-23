@@ -872,7 +872,8 @@ h3.my-profession{
     
     }
     .test{
-        display: none;
+        /* display: none; */
+        color: green;
     }
 }
 

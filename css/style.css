@@ -18,6 +18,7 @@ body{
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    word-spacing: 1rem;
 }
 
 
@@ -30,7 +31,6 @@ li{
     text-align: justify;
     font-size: 16px;
     color: var(--text-black-700);
-    word-spacing: 2px;
 }
 
 .section{

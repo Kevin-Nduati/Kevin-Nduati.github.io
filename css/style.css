@@ -20,11 +20,17 @@ body{
     box-sizing: border-box;
 }
 
+
 ::before, ::after{
     box-sizing: border-box;
 }
-ul{
-    list-style: none;
+li{
+    /* list-style: none; */
+    line-height: 25px;
+    text-align: justify;
+    font-size: 16px;
+    color: var(--text-black-700);
+    word-spacing: 2px;
 }
 
 .section{
@@ -269,7 +275,7 @@ h3.hello{
 }
 
 h3.hello span{
-    font-family: 'Clicker Script', cursive;
+    /* font-family: 'Clicker Script', cursive; */
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
